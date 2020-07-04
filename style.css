@@ -193,4 +193,10 @@ img{
         'top-box-a'
         'top-box-b';
     }
+    .main-nav ul{
+        grid-template-columns:1fr;
+    }
+    .info{
+        grid-template-columns:1fr;
+    }
 }
