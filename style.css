@@ -107,7 +107,6 @@ img{
 
 .top-box-a .btn{
     border-radius:14px;
-    text-align:center;
 }
 .top-box-a .btn:hover{
     background:var(--primary);
@@ -115,7 +114,6 @@ img{
 }
 .top-box-b .btn{
     border-radius:14px;
-    text-align:center;
 }
 .top-box-b .btn:hover{
     background:var(--primary);
@@ -199,6 +197,10 @@ img{
         display:block;
         text-align:center;
         margin:auto;
+    }
+    .footer{
+        padding:0.3rem;
+        margin-top:0;
     }
 }  
 @media screen and (max-width:500px){
