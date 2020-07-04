@@ -3,6 +3,7 @@
     --primary:#ddd;
     --dark:#333;
     --light:#fff;
+    --btn:#ff5733;
     --shadow:0 1px 5px rgba(104,104,104,0.8);
 }
 html{
@@ -96,6 +97,24 @@ img{
 }
 .top-box .price{
     font-size:2rem;
+}
+.top-box-a .btn:hover{
+    background:var(--primary);
+    background:var(--btn);
+    border-radius:14px;
+}
+.top-box-a .btn{
+    border-radius:14px;
+    text-align:center;
+}
+.top-box-b .btn{
+    border-radius:14px;
+    text-align:center;
+}
+.top-box-b .btn:hover{
+    background:var(--primary);
+    background:var(--btn);
+    border-radius:14px;
 }
 .top-box-a{
     grid-area:top-box-a;
