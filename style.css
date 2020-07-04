@@ -107,6 +107,7 @@ img{
 
 .top-box-a .btn{
     border-radius:14px;
+    text-align:center;
 }
 .top-box-a .btn:hover{
     background:var(--primary);
@@ -114,6 +115,7 @@ img{
 }
 .top-box-b .btn{
     border-radius:14px;
+    text-align:center;
 }
 .top-box-b .btn:hover{
     background:var(--primary);
